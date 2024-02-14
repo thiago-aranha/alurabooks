@@ -1,0 +1,36 @@
+.news {
+    background-color: var(--primary-color);
+    padding: 1em;
+    color: var(--secondary-color);
+}
+
+.news__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.news_text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.news__email {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 1.5rem;
+    border-color: var(--secondary-color);
+    height: 2rem;
+    width: 90vw;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.news__email::placeholder {
+    font-family: var(--primary-font-family);
+    color: var(--secondary-color);
+    background: url("../img/Email.svg") no-repeat;
+    background-position: 0.5rem;
+    padding-left: 3em;
+}
