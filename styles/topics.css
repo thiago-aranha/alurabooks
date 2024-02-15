@@ -30,3 +30,14 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .topics__title {
+        font-size: 1.5em;
+    }
+
+    .topics__list__item {
+        font-size: 1.5em;
+    }
+    
+}

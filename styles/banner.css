@@ -2,7 +2,6 @@
     background: var(--background-gradient-color);
     color: var(--primary-color);
     width: 100vw;
-    height: 9.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -45,4 +44,16 @@
         background: url("../img/Lupa.svg") no-repeat;
         background-size: contain;
         background-position: 1rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+        .banner__title {
+            font-size: 2em;
+        }  
+        
+        .banner__search {
+            width: 60vw;
+            margin-left: 17vw;
+            margin-right: 17vw;
+        }
     }

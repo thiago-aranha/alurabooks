@@ -15,4 +15,31 @@
 .swiper-pagination {
     position: initial !important;
     margin: 0.5em;
-} 
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel__title {
+        font-size: 26px;
+    }
+
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block !important;
+        top: 60% !important;
+    }
+
+}
