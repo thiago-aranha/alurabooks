@@ -1,13 +1,13 @@
 .news {
     background-color: var(--primary-color);
-    padding: 1em;
+    padding: 1rem;
     color: var(--secondary-color);
 }
 
 .news__title {
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .news_text {
@@ -16,8 +16,8 @@
 }
 
 .news__email {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     border-style: solid;
     border-radius: 1.5rem;
     border-color: var(--secondary-color);
@@ -32,7 +32,7 @@
     color: var(--secondary-color);
     background: url("../img/Email.svg") no-repeat;
     background-position: 0.5rem;
-    padding-left: 3em;
+    padding-left: 3rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -41,6 +41,16 @@
     }
 
     .news__title {
-        font-size: 1.5em;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .news {
+        padding: 2rem 15vw;
+    }
+
+    .news__email {
+        margin-left: 5rem;
     }
 }

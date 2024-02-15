@@ -2,42 +2,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1em;
-    padding: 1em;
+    margin: 1rem;
+    padding: 1rem;
     background-color: var(--primary-color);
-    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
-    border-radius: 0.625em;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
 }
 
 .card__leftside {
-    margin: 0.5em;
+    margin: 0.5rem;
     /* width: 55vw; */
 }
 
 .card__leftside__title {
     color: var(--tertiary-color);
     font-weight: bold;
-    margin-bottom: 0.5em;
-    font-size: 1em;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .card__leftside__book__title {
     color: var(--secondary-color);
-    margin-bottom: 0.5em;
-    font-size: 1em;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .card__leftside__book__text {
-    font-size: 0.875em;
-    margin-bottom: 1em;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
 }
 
 .card__leftside__button {
-    margin-right: 0.5em;
-    margin-top: 0.2em;
-    margin-bottom: 0.5em;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .card__rightside {
@@ -56,7 +56,7 @@
 
 .card__rightside__book__details {
     background-color: var(--tertiary-color);
-    padding: 0.5em 2.2em;
+    padding: 0.5rem 2.2rem;
     margin: 0;
     color: var(--primary-color);
     text-decoration: none;
@@ -68,7 +68,49 @@
 
     .card {
         width: 40vw;
-        margin: 2em auto;
+        margin: 2rem auto;
     }
 
+@media screen and (min-width: 1728px) {
+    .carousel__with__card {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        margin-bottom: 4rem;
+        align-items: center;
+    }
+
+    .carousel {
+        width: 60vw;
+        height: auto;
+    }
+
+    .card {
+        width: 30vw;
+        height: auto;
+        margin-top: 7rem;
+    }
+
+    .card__leftside__title {
+        font-size: 2rem;
+    }
+
+    .card__leftside__book__title {
+        margin: 1rem 0;
+    }
+
+    .card__leftside__book__text {
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .card__leftside__button {
+        margin: 2rem 0;
+    }
+    
 }
+
+}
+
